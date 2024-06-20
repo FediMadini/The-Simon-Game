@@ -6,3 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'Learning github actions'
+      - run: echo 'github.actor: ${{ github.actor }}, github.ref: ${{ github.ref }}'
